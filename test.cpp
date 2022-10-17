@@ -55,7 +55,7 @@ LOGIN
 				getline(passwda, passwd);
 
 			}
-			Passwodrdata();
+			Passwortdata();
 		}
 		j = 1;
 		/*
@@ -79,6 +79,6 @@ int Befehl(){
 	return 0;
 }
 
-Passwortdata(){
+int Passwortdata(){
 		passmap.insert(make_pair("Elijas", "Computer"));
 }
